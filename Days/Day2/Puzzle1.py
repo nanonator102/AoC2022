@@ -3,6 +3,7 @@ if __name__ == '__main__':
         score = 0
         for line in fp:
             line = str.strip(line)  # Strips the new-line character
+            other, me = line.split()
             moves = line.split()
             # Add score for my move
             # A, X = Rock
